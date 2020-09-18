@@ -5,7 +5,7 @@ import android.app.Application;
 
 
 public class App extends Application {
-    @Override
+    @Overridem
     public void onCreate() {
         super.onCreate();
         Parse.initialize(new Parse.Configuration.Builder(this)
